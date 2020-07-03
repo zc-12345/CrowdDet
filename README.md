@@ -1,3 +1,6 @@
+#主要看 CrowdDet/lib/evaluate/ 下的compute_APMR.py与compute_JI.py这两种评测指标（好像是针对拥挤场景下的目标检测的评价指标，MAP是针对全分段来计算的（置信度大于0），compute_APMR.py与compute_JI.py是针对高分段来计算的（置信度大于某个值））
+
+
 # Detection in Crowded Scenes: One Proposal, Multiple Predictions
 
 This is the pytorch implementation of our paper "Detection in Crowded Scenes: One Proposal, Multiple Predictions", https://arxiv.org/abs/2003.09163, published in CVPR 2020.
